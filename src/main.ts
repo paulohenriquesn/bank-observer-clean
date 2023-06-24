@@ -15,8 +15,8 @@ const observers: Record<string, Observer> = {
 
 const observable = new AccountObservable()
 
-Object.keys(observers).forEach((observableKey: string) => {
-  observable.addObserver(observers[observableKey])
+Object.keys(observers).forEach((observerKey: string) => {
+  observable.addObserver(observers[observerKey])
 })
 
 data.forEach((event) => {
