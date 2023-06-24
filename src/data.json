@@ -1,0 +1,10 @@
+[
+  {"action": "CREATE_ACCOUNT", "document": "00000001"},
+  {"action": "CREATE_ACCOUNT", "document": "00000002"},
+  {"action": "DEPOSIT", "amount": 100, "document": "00000001"},
+  {"action": "DEPOSIT", "amount": 50, "document": "00000002"},
+  {"action": "DEPOSIT", "amount": 25, "document": "00000002"},
+  {"action": "WITHDRAW", "amount": 5, "document": "00000002"},
+  {"action": "WITHDRAW", "amount":  10, "document": "00000001"},
+  {"action": "EXTRACT", "document": "00000001"}
+]
