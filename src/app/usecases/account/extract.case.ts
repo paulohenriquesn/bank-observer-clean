@@ -17,6 +17,8 @@ export class Extract implements UseCaseProtocol<InputExtract, OutputExtract> {
     const account = await this.accountRepository.findOne({
       document
     })
+
+    console.log(account.getExtract())
     
     return account.getExtract();
   }
